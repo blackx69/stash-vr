@@ -48,5 +48,7 @@ jobs:
             BUILD_SHA=${{ steps.vars.outputs.sha_short }}
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: |
+            ${{ steps.meta.outputs.tags }}
+            blackx69/stash-vr:latest
           labels: ${{ steps.meta.outputs.labels }}

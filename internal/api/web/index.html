@@ -13,7 +13,8 @@ veeXFGDGWo6SUFH1sNUijSC3whTRzf17f0ulFkRH9zOInXCi8tCVKf60FHSkpTxDgMtcEDPcf4TY
 7CNKs2tBqKaekV2MsgihnHr2XMcZscSOpnJHbNZwNlSAyp2u5+sqSRudhkq39d5Zbq6Kvup3iaKS
 fKUlgFY1QKnzcRvOSoqwo/ttdsRGEVZZSJXmglBwUqdjp6VdkPt5XoWOKGY6Xz3PVwxnkeWelfAO
 F9vKAigMZ4H7zQaxTuSPHrrOcMMpycu5BcApEdA59YwS4ShHRIDTIPafuqtNs6M6ohj1h9SNxAiA
-/DyRqAHqNQD350bBBvlzRSAFuS1FAAAAAAAAAAAAAABb/ADP/f1z77EnFAAAAABJRU5ErkJggg==" rel="icon" type="image/png" />
+/DyRqAHqNQD350bBBvlzRSAFuS1FAAAAAAAAAAAAAABb/ADP/f1z77EnFAAAAABJRU5ErkJggg=="
+          rel="icon" type="image/png"/>
 </head>
 <body>
 <h1>Stash-VR</h1>
@@ -77,7 +78,8 @@ F9vKAigMZ4H7zQaxTuSPHrrOcMMpycu5BcApEdA59YwS4ShHRIDTIPafuqtNs6M6ohj1h9SNxAiA
     <p>
         <mark style="background-color: #00ff00">All OK!</mark>
     </p>
-    <p>Open this endpoint in your favorite supported VR video player to browse your library.</p>
+    <p>Open this endpoint in your favorite supported VR video player to browse
+        your library.</p>
     {{else}}
     <p>Stash-VR could not connect to Stash.</p>
 
@@ -86,13 +88,18 @@ F9vKAigMZ4H7zQaxTuSPHrrOcMMpycu5BcApEdA59YwS4ShHRIDTIPafuqtNs6M6ohj1h9SNxAiA
     {{else}}
     <p>Verify that:</p>
     <ul>
-        <li>Provided Stash GraphQL url is correct and can be reached from Stash-VR</li>
-        <li>API Key is correctly provided if your Stash instance requires authentication</li>
+        <li>Provided Stash GraphQL url is correct and can be reached from
+            Stash-VR
+        </li>
+        <li>API Key is correctly provided if your Stash instance requires
+            authentication
+        </li>
         <li>Stash version is >= 0.17.1</li>
     </ul>
     <p>For further troubleshooting <b>review the log output</b></p>
     {{if not (or (eq .LogLevel "debug") (eq .LogLevel "trace")) }}
-    <p>Log level is set to "{{.LogLevel}}". For even further details <b>rerun Stash-VR with log level "debug"</b></p>
+    <p>Log level is set to "{{.LogLevel}}". For even further details <b>rerun
+        Stash-VR with log level "debug"</b></p>
     {{end}}
     {{end}}
     {{end}}
@@ -105,7 +112,8 @@ F9vKAigMZ4H7zQaxTuSPHrrOcMMpycu5BcApEdA59YwS4ShHRIDTIPafuqtNs6M6ohj1h9SNxAiA
     </ul>
 </details>
 
-<footer><p><a href="https://github.com/o-fl0w/stash-vr" target="_blank">https://github.com/o-fl0w/stash-vr</a></p>
+<footer><p><a href="https://github.com/o-fl0w/stash-vr" target="_blank">https://github.com/o-fl0w/stash-vr</a>
+</p>
 </footer>
 
 </body>
